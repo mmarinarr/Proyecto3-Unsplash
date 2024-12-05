@@ -36,7 +36,7 @@ const printPhotos = (photos) => {
     message.appendChild(text);
 
     const img = document.createElement("img");
-    img.src = "./public/error.jpg";
+    img.src = "./error.jpg";
     img.alt = "No results found"; 
     message.appendChild(img);
 
