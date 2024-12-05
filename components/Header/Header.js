@@ -2,11 +2,11 @@ import "./Header.css";
 
 const template = () => `
 <div class="navbar">
-<img src="./public/unsplash.png" id="logo" width="200rem">
+<img src="./unsplash.png" id="logo" width="200rem">
 <div class="search">
 <div id="search">
 <input type="text" id="searchInput" placeholder="Playa..."/>
-<button id="searchBtn"><img src="./public/lupa.png" width="30rem"></button>
+<button id="searchBtn"><img src="./lupa.png" width="30rem"></button>
 </div>
 <div id="inputs">
 <select id="countInput">
