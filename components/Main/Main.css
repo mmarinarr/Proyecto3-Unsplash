@@ -1,0 +1,76 @@
+
+#gallery{
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+
+#gallery li {
+  width: 25rem;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#gallery img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  transform: scale(var(--escala, 0.95));
+  transition: transform 0.25s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#gallery img:hover{
+  --escala: 1;
+}
+
+#message{
+  text-align: center;
+}
+
+#message img{
+  align-items: center;
+  width: 30rem;
+}
+
+#message > button{
+  align-items: center;
+  margin: 3rem;
+}
+
+.button-style{
+  background-color: var(--primarylight);
+  border: 0 solid #e2e8f0;
+  border-radius: 3rem;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+.button-style:hover{
+  background-color: var(--highlight);
+  color: var(--primary-light);
+}
+
+@media (max-width: 768px){
+  #message img{
+    align-items: center;
+    width: 20rem;
+  }
+  
+  #message > button{
+    align-items: center;
+    margin: 1rem;
+  }
+}

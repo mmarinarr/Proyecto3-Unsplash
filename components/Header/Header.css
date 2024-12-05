@@ -1,0 +1,319 @@
+.navbar {
+    height: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+#logo{
+    padding: 2rem;
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+#search{
+    background-color: rgba(0, 0, 0, 0.133);
+    border-radius: 5rem;
+}
+
+#searchInput{
+    border-radius: 5rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    width: 25rem;
+    background: none;
+    border-style: none;
+}
+
+#searchBtn{
+    background: none;
+    border-style: none;
+}
+
+#searchBtn > img{
+    margin-bottom: -0.6rem;
+    padding-right: 1rem;
+}
+
+#countInput{
+    border-radius: 2.5rem;
+    padding: 1rem 1.5rem;
+}
+
+#orientationInput{
+    border-radius: 2.5rem;
+    padding: 1rem 1.5rem;
+} 
+
+#colorInput{
+    border-radius: 2.5rem;
+    padding: 1rem 1.5rem;
+} 
+
+#options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.126);
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+#flowerBtn{
+    background-color: var(--primarylight);
+    border: 0 solid #e2e8f0;
+    border-radius: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+#flowerBtn:hover{
+    background-color: var(--highlight);
+    color: var(--primary-light);
+}
+
+#catBtn{
+    background-color: var(--primarylight);
+    border: 0 solid #e2e8f0;
+    border-radius: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+#catBtn:hover{
+    background-color: var(--highlight);
+    color: var(--primary-light);
+}
+
+#dogBtn{
+    background-color: var(--primarylight);
+    border: 0 solid #e2e8f0;
+    border-radius: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+#dogBtn:hover{
+    background-color: var(--highlight);
+    color: var(--primary-light);
+}
+
+#natureBtn{
+    background-color: var(--primarylight);
+    border: 0 solid #e2e8f0;
+    border-radius: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+#natureBtn:hover{
+    background-color: var(--highlight);
+    color: var(--primary-light);
+}
+
+#horseBtn{
+    background-color: var(--primarylight);
+    border: 0 solid #e2e8f0;
+    border-radius: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+#horseBtn:hover{
+    background-color: var(--highlight);
+    color: var(--primary-light);
+}
+
+#nightBtn{
+    background-color: var(--primarylight);
+    border: 0 solid #e2e8f0;
+    border-radius: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+#nightBtn:hover{
+    background-color: var(--highlight);
+    color: var(--primary-light);
+}
+
+#sunBtn{
+    background-color: var(--primarylight);
+    border: 0 solid #e2e8f0;
+    border-radius: 3rem;
+    font-family: "Poppins";
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 4px 5px rgba(166, 175, 195, 0.25);
+}
+
+#sunBtn:hover{
+    background-color: var(--highlight);
+    color: var(--primary-light);
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        flex-direction: column;      
+        align-items: center;          
+        padding: 1rem;
+        height: auto;
+    }
+
+    .search {
+        flex-direction: column;      
+        align-items: center;
+        gap: 0.8rem;
+        width: 90%;                 
+    }
+
+    #options {
+        flex-direction: column;      
+        height: auto;
+        gap: 1.5rem;
+        padding: 1rem 0;
+        box-shadow: none;           
+    }
+
+    #buttons {
+        display: flex;
+        flex-wrap: wrap;            
+        justify-content: center;      
+        gap: 1rem;                    
+    }
+
+    #buttons > button {
+        width: 45%;                  
+        max-width: 200px;            
+    }
+
+    #flowerBtn,
+    #catBtn,
+    #dogBtn,
+    #natureBtn,
+    #horseBtn,
+    #nightBtn,
+    #sunBtn {
+        padding: 0.8rem 1rem;       
+        font-size: 1rem;            
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;        
+        height: auto;                  
+        padding: 1rem 0.5rem;
+        align-items: center;           
+    }
+
+    #logo {
+        padding: 1rem 0;              
+    }
+
+    .search {
+        flex-direction: column;      
+        align-items: center;
+        gap: 0.8rem;
+        width: 90%;                 
+    }
+
+    #searchInput {
+        width: 55%;                    
+    }
+
+    #countInput,
+    #orientationInput,
+    #colorInput{
+        padding: 0.6rem 0.4rem;
+    }
+
+    #options {
+        flex-direction: column;       
+        height: auto;
+        gap: 1.5rem;
+        padding: 1rem 0;
+        box-shadow: none; 
+    }
+
+    #buttons {
+        display: flex;
+        flex-wrap: wrap;              
+        justify-content: center;     
+        gap: 1rem;                 
+    }
+
+    #buttons > button {
+        width: 45%;                   
+        max-width: 300px;              
+        padding: 1rem;               
+    }
+
+    #flowerBtn,
+    #catBtn,
+    #dogBtn,
+    #natureBtn,
+    #horseBtn,
+    #nightBtn,
+    #sunBtn {
+        font-size: 1rem;              
+        padding: 0.8rem 1rem;        
+    }
+}
